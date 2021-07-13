@@ -1,0 +1,28 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "DEBUG=check:* DEBUG_DEPTH=25 node debug.js",
+    "debug-no-vars": "DEBUG=false node debug.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debugjs-wrapper": "0.0.3",
+    "express": "^4.17.1",
+    "hyperid": "^2.1.0",
+    "json-2-csv": "^3.10.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "twilio": "^3.62.0",
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34",
+    "ws": "^7.4.1"
+  }
+}
